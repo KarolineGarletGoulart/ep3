@@ -1,0 +1,11 @@
+header{
+    grid-area: cabe;
+}
+
+main{
+    grid-area: prin;
+}
+
+footer{
+    grid-area: code;
+}
