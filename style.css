@@ -1,24 +1,34 @@
 header{
     grid-area: cab;
-    background-color: blueviolet;
+    background-color: #c1a897
 }
 aside{
     grid-area: sec;
-    background-color: aquamarine;
+    background-color: #ded0c2
 }
 main{
     grid-area: pri;
-    background-color: black;
+    background-color: #fef3e9;
 }
 
 footer{
     grid-area: rod; 
-    background-color: aqua;
+    background-color: #a59284;
 }
 body{
+    background-color: #fff;
     display: grid;
     grid-template-areas: 
         "cab cab cab"
         "sec pri pri"
         "rod rod rod";
+        grid-template-columns: 20% auto auto;
+        grid-template-rows: auto 1000px auto;
+        width: 1300px;
+        margin: 0 auto;
+}
+.logo{
+    max: width 10rem;
+    max-height:10rem;
+    border-radius: 100%;
 }
