@@ -1,11 +1,24 @@
 header{
-    grid-area: cabe;
+    grid-area: cab;
+    background-color: blueviolet;
 }
-
+aside{
+    grid-area: sec;
+    background-color: aquamarine;
+}
 main{
-    grid-area: prin;
+    grid-area: pri;
+    background-color: black;
 }
 
 footer{
-    grid-area: code;
+    grid-area: rod; 
+    background-color: aqua;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+        "cab cab cab"
+        "sec pri pri"
+        "rod rod rod";
 }
