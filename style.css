@@ -1,22 +1,32 @@
+*{
+    margin: 5;
+    padding: 5;
+    box-sizing: 5;
+}
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 header{
     grid-area: cab;
-    background-color: #c1a897
+    display: flex;
+    padding: 1rem;
+    background-color:rgb(222, 208, 194);
 }
 aside{
     grid-area: sec;
-    background-color: #ded0c2
+    background-color: rgb(236, 229, 225);
 }
 main{
     grid-area: pri;
-    background-color: #fef3e9;
+    background-color: rgb(237, 229, 224);
 }
-
 footer{
     grid-area: rod; 
-    background-color: #a59284;
+    background-color: rgb(72, 46, 29);
 }
 body{
-    background-color: #fff;
+    background-color: rgb(136, 114, 100);
     display: grid;
     grid-template-areas: 
         "cab cab cab"
@@ -24,32 +34,36 @@ body{
         "rod rod rod";
         grid-template-columns: 20% auto auto;
         grid-template-rows: auto auto auto;
-
+        width: 1300px;
+        border: 2px solid rgb(255, 255, 255);
+        margin: 0 auto;
+        padding: 3px 3px 3px 3px;
 }
 .logo{
-    max: width 10rem;
-    max-height:10rem;
+    max-width: 11rem;
+    max-height:11rem;
     border-radius: 100%;
 }
 .box_pai{
-    border: 2px brown solid;
+    border: 2px rgb(136, 114, 100);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-}
 
+}
 .card{
-    border: black 2px solid;
+    border-radius: 40px;
+    padding: 30px;
     width: 300px;
-    height: 380px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
+    margin: 10px;
+    text-align: center;
+    transition: 0.7s;
+    background-color: rgb(212, 161, 82);
+    color: rgb(78, 44, 51);
 }
 .card img{
+    border-radius: 40px;
     width: 250px;
     height: auto ;
 }
