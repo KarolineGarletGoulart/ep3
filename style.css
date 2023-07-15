@@ -59,11 +59,27 @@ body{
     margin: 10px;
     text-align: center;
     transition: 0.7s;
-    background-color: rgb(212, 161, 82);
+    background-color: rgb(241, 173, 67);
     color: rgb(78, 44, 51);
 }
 .card img{
     border-radius: 40px;
     width: 250px;
-    height: auto ;
+    height: auto;
 }
+.título-do-cabeçalho{
+    font-family: "Inter", Sans-serif;
+    text-align: initial;
+    color: rgb(78, 44, 51);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.título{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: initial;
+    color: rgb(61, 65, 95);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
