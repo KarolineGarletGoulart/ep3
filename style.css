@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 5;
     padding: 5;
     box-sizing: 5;
 }
@@ -16,7 +16,7 @@ header{
     border-width: 0px 0px 4px 0px;
     border-color:rgb(214, 80, 107) ;
 }
-nav li{
+.menu-item-object-custom{
     font-family: "Poppins", Sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -26,18 +26,29 @@ nav li{
     align-items:center;
     margin: 2rem;
 }
-nav a{
-    color: #FFFFFF;
+.elementor-nav-menu .elementor-item{
+    color: rgb(255, 255, 255);
     padding-left: 15px;
     padding-right: 15px;
+
     box-shadow: none;
     text-decoration: none;
     padding: 13px 20px;
     line-height: 100px;
 }
+.elementor-nav-menu a:hover{
+    color: rgb(75, 47, 40);
+    border-color: rgb(204, 51, 102);;
+    border-style: solid;
+    border-width: 0 0 3px 0;
+}
 aside{
     grid-area: sec;
-    background-color: rgb(255, 245, 203);
+    background-color: rgb(255, 203, 12);
+    border-radius: 0px 3px 3px 0px;
+    border-style: solid;
+    border-width: 0px 4px 4px 0px;
+    border-color: rgb(98, 223, 187);
 }
 main{
     grid-area: pri;
@@ -60,7 +71,7 @@ body{
         margin: 0 auto;
         padding: 2px 2px 2px 2px;
 }
-.logo{
+.logotipo{
     max-width: 10rem;
     max-height:10rem;
     border-radius: 20%;
@@ -78,7 +89,6 @@ body{
     border-style: solid;
     border-width: 0px 2px 2px 0px;
     border-color: rgb(98, 223, 187);
-    box-sizing: border-box;
     margin: 0px 20px 0px 20px;
     width: 300px;
     height: 500px;
@@ -90,10 +100,10 @@ body{
     height: auto;
     width: 300px;
     border: none;
-    border-radius: 10px;
+    border-radius: 10%;
     box-shadow: none;
     background-color: transparent;
-    background-image: linear-gradient(180deg,rgb(98, 223, 187) 50%,rgb(98, 223, 187) 50%);
+    background-image: linear-gradient(180deg, rgb(98, 223, 187) 50%, rgb(98, 223, 187) 50%);
     vertical-align: middle;
 }
 .card:hover a{
@@ -102,7 +112,7 @@ body{
 }
 .elementor-title{
     color: rgb(255, 255, 255);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Gochi Hand", Sans-serif;
     font-size: 70px;
     font-weight: 600;
     text-shadow: 3px 3px 0px rgb(214, 80, 107);
@@ -156,6 +166,6 @@ body{
     font-size: 3rem;
     font-weight: 600;
     text-transform: uppercase;
-    text-shadow: 3px 3px 0px #62DFBB;
+    text-shadow: 3px 3px 0px rgb(98, 223, 187);
     text-align: center;
 }
