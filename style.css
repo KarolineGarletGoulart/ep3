@@ -72,8 +72,9 @@ body{
     height: auto;
     width: 160px;
     border-radius: 10px;
-    margin-top:6px;
-    margin-left: 6px;
+    margin-top:15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 
 }
 .box_pai{
@@ -108,14 +109,14 @@ body{
 }
 .elementor-title{
     color: rgb(255, 255, 255);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 70px;
     font-weight: 600;
     text-shadow: 3px 3px 0px rgb(214, 80, 107);
     text-align: center;
 }
 .elementor-heading-title{
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     color: rgb(255, 109, 138);
     font-size: 25px;
