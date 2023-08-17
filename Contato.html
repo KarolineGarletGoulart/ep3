@@ -3,13 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato - Heaven’s Donuts</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="Heaven's_Donuts.ico.png" type="image/x-icon">
+    <title>Cardápio - Heaven’s Donut</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="body-contato">
     <header>
         <div>
-            
+            <a href="index.html">
+                <img class="logotipo" src="Heaven_s_Donuts_Logo.png" alt="logotipo Heaven’s Donut">
+            </a>
         </div>
+        <nav>
+            <ul class="elementor-nav-menu">
+                <li class="menu-item-object-custom"><a href="index.html" class="elementor-item">Início</a></li>
+                <li class="menu-item-object-custom"><a href="Cardápio.html" class="elementor-item">Cardápio</a></li>
+                <li class="menu-item-object-custom"><a href="#" class="elementor-item">Carrinho</a></li>
+                <li class="menu-item-object-custom"><a href="Contato.html" class="elementor-item">Contato</a></li>
+            </ul>
+        </nav>
     </header>
-</body>
+    <aside>
+        <nav>
+
+        </nav>
+    </aside>
+    <main>
+        <div class="elementor-widget-container"></div>
+
+        <h2 class="elementor-heading-title2">ATENDIMENTO</h2>
+        <h1 class="elementor-title2">FALE CONOSCO</h1>
+
+           <!--FORMULÁRIO DE CADASTRO-->
+           <div id="cadastro">
+            <form>
+                <p> 
+                    <label class="elementor-label">NOME</label>
+                    <input class= "elementor-field" required="required" type="telefone" placeholder="Digite seu nome"/>
+                </p>
+                <p> 
+                    <label class="elementor-label">TELEFONE</label>
+                    <input class= "elementor-field" required="required" type="telefone" placeholder="Digite seu telefone"/> 
+                </p>
+                <p> 
+                    <label class="elementor-label">EMAIL</label>
+                    <input class= "elementor-field" required="required" type="email" placeholder="Email"/> 
+                </p>
+                <p> 
+                    <label class="elementor-label">MENSAGEM</label>
+                    <textarea class="elementor-field-textual" required="required" placeholder="Digite sua mensagem"></textarea>
+                </p>
+                <p> 
+                    <label class="elementor-label">CURRÍCULO</label>
+                    <input class= "elementor-upload-field" type="file" name="form_fields[field_cd321ed]" value="Escolher arquivo"/> 
+                </p>
+                <div class="elementor-field-group-button"></div>
+                <button type="submit" class="elementor-button">
+                    <span>
+                        <span class="elementor-buttom-icon">
+                        </span>
+                        <span class="elementor-buttom-text">Enviar</span>
+                    </span>
+            </form>
+            </div>
+    </div>
+    </main>
+    <footer>
+    </footer>
+    </body>
 </html>

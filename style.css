@@ -11,10 +11,15 @@ header{
     grid-area: cab;
     display: flex;
     background-color: rgb(255, 109, 138);
+    align-items: center;
     border-radius: 0px 0px 0px 0px;
     border-style: solid;
     border-width: 0px 0px 4px 0px;
     border-color:rgb(214, 80, 107) ;
+}
+.logotipo{
+    max-width:11rem;
+    max-height: 11rem;
 }
 .menu-item-object-custom{
     font-family: "Poppins", Sans-serif;
@@ -37,13 +42,13 @@ header{
 }
 .elementor-nav-menu a:hover{
     color: rgb(75, 47, 40);
-    border-color: rgb(204, 51, 102);;
+    border-color: #cc3366;
     border-style: solid;
     border-width: 0 0 3px 0;
 }
 aside{
     grid-area: sec;
-    background-color: rgb(255, 203, 12);
+    background-color: #ffcb0c;
 }
 main{
     grid-area: pri;
@@ -68,15 +73,7 @@ body{
     font-weight: 400;
     line-height: 1.5;
 }
-.logotipo{
-    height: auto;
-    width: 160px;
-    border-radius: 10px;
-    margin-top:15px;
-    margin-left: 15px;
-    margin-bottom: 15px;
 
-}
 .box_pai{
     border: 2px rgb(255, 255, 255);
     display: flex;
@@ -109,14 +106,12 @@ body{
 }
 .elementor-title{
     color: rgb(255, 255, 255);
-    font-family: 'Courier New', Courier, monospace;
     font-size: 70px;
     font-weight: 600;
     text-shadow: 3px 3px 0px rgb(214, 80, 107);
     text-align: center;
 }
 .elementor-heading-title{
-    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     color: rgb(255, 109, 138);
     font-size: 25px;
@@ -171,4 +166,65 @@ body{
     text-shadow: 3px 3px 0px rgb(98, 223, 187);
     text-align: center;
 }
+.elementor-heading-title-contact{
+    color: rgb(75, 47, 40);
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+}
+.elementor-button{
+    background-color: #ffcb0c;
+    color: #4b2f28;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 550;
+    padding: 15px 170px;
+    border: transparent;
+}
+.elementor-button text{
+
+}
+.elementor-field{
+    padding: 5px 14px;
+}
+.elementor-field-textual{
+    line-height: 1.4;
+    font-size: 15px;
+    min-height: 40px;
+    padding: 5px 14px;
+    border-radius: 3px;
+}
+.elementor-field-textual, .elementor-field{
+    background-color: hwb(0 96% 4%);
+    border-color: rgb(98, 223, 187);
+    border-width: 0px 2px 2px 0px;
+    border-radius: 10px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+@media only screen and (max-width: 767px){
+.elementor-field .elementor-field-textual{
+    font-size: 14px;
+}
+}
+.elementor-label{
+    color: rgb(75, 47, 40);
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+}
+.elementor-upload-field{
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 
