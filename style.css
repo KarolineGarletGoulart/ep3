@@ -297,5 +297,65 @@ button {
     font-weight: 400;
 }
 .DonutsTradicional{
-    background-color: #fff;
+    background-color: rgb(255, 245, 203);
+}
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh -8px);
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.items{
+    align-self: flex-end;
+}
+.select-image{
+    max-width: 500px;
+}
+.select-image img{
+    width: 100%;
+}
+.right-side{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.right-side h6{
+    color: #4b2f28;
+}
+.right-side h1{
+    color: rgb(255, 109, 138);
+    font-family: "Gochi Hand", Sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    text-shadow: 3px 3px 0px rgb(98, 223, 187);
+}
+.right-side p{
+    color: #4b2f28;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+.price{
+    color: #4b2f28;
+    font-size: 16px;
+    font-weight: 700;
+}
+.amount{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.amount span{
+    font-weight: 700;
+    font-size: 12px;
+}
+.minus, .plus{
+    cursor: pointer;
 }
