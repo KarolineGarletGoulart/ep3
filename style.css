@@ -3,9 +3,21 @@
     padding: 5;
     box-sizing: 5;
 }
-body{
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+.main-index{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #ffe7ef;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.main-contact{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 header{
     grid-area: cab;
@@ -15,7 +27,7 @@ header{
     border-radius: 0px 0px 0px 0px;
     border-style: solid;
     border-width: 0px 0px 4px 0px;
-    border-color:rgb(214, 80, 107) ;
+    border-color: rgb(214, 80, 107);
 }
 .logotipo{
     max-width:11rem;
@@ -46,6 +58,23 @@ header{
     border-style: solid;
     border-width: 0 0 3px 0;
 }
+.elementor-social-icon ul{
+    display: flex;
+    justify-content: center;
+}
+.elementor-social-icon a:active{
+    transform: translateY(-8px);
+}
+.elementor-social-icon ul a{
+    display: block;
+    padding: 10px;
+}
+.elementor-social-icon li{
+    color: transparent;
+}
+.elementor-social-icon ul li a img{
+    max-width: 40px;
+}
 aside{
     grid-area: sec;
     background-color: #ffcb0c;
@@ -57,7 +86,13 @@ main{
 footer{
     grid-area: rod; 
     background-color: rgb(91, 61, 53);
+    
 }
+.elementor-widget-image{
+    max-width: 25rem;
+    max-height: 25rem;
+}
+
 body{
     display: grid;
     background-color: #fff;
@@ -106,17 +141,23 @@ body{
 }
 .elementor-title{
     color: rgb(255, 255, 255);
-    font-size: 70px;
-    font-weight: 600;
+    font-family: "Gochi Hand", Sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
     text-shadow: 3px 3px 0px rgb(214, 80, 107);
     text-align: center;
+    line-height: 1;
 }
 .elementor-heading-title{
-    text-align: center;
     color: rgb(255, 109, 138);
+    font-family: "Poppins", Sans-serif;
     font-size: 25px;
-    font-weight: 600;
-    text-shadow: 2px 2px 0px rgb(255, 203, 12);
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0px rgb(255, 203, 12);    
+    text-align: center;
+    line-height: 1;
 }
 .elementor-image-box-title{
     color: rgb(255, 109, 138);
@@ -143,19 +184,20 @@ body{
     font-weight: 550;
     padding: 10px 30px;
     text-decoration: none;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .elementor-button-price:hover{
     color: rgb(75, 47, 40);
     background-color:  rgb(255, 109, 138);
-    transform: scale(1.1);
 }
+
 .elementor-heading-title2{
     color: rgb(98, 223, 187);
     font-family: "Poppins", Sans-serif;
     font-size: 30px;
     font-weight: 600;
-    text-align: center;
+    text-align: left;
+    padding-left: 10px;
 }
 .elementor-title2{
     color: rgb(255, 109, 138);
@@ -164,27 +206,60 @@ body{
     font-weight: 600;
     text-transform: uppercase;
     text-shadow: 3px 3px 0px rgb(98, 223, 187);
-    text-align: center;
+    text-align: left;
+    padding-left: 10px;
+}
+.elementor-heading-title-footer{
+    color: #ffcb0c;
+    font-family: "Gochi Hand", Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0px #D6506B;
+}
+.elementor-nav-menu-footer .menu-item-footer{
+    color:#fff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    justify-content: center;
+    padding: 13px 20px;
 }
 .elementor-heading-title-contact{
     color: rgb(75, 47, 40);
     font-family: "Poppins", Sans-serif;
     font-size: 17px;
 }
-.elementor-button{
-    background-color: #ffcb0c;
-    color: #4b2f28;
-    font-family: Poppins, sans-serif;
+.elementor-button-contact{
+    font-family: "Poppins", Sans-serif;
     font-size: 20px;
     font-weight: 500;
+    padding: 10px 150px;    
+    color: #4b2f28;
+    background-color: #ffcb0c;
+    border-style: solid;
+    border-width: 0px 3px 3px 0px;
+    border-color: #4b2f28;
     border-radius: 100px;
-    font-size: 16px;
-    font-weight: 550;
-    padding: 15px 170px;
-    border: transparent;
 }
-.elementor-button text{
-
+button {
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;      
+    background: #ffcb0c;
+    color: #4b2f28;
+    padding: 10px 150px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 100px;
+}
+.description{
+    color: #4b2f28;
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.5em;
 }
 .elementor-field{
     padding: 5px 14px;
@@ -205,11 +280,6 @@ body{
     font-size: 18px;
     font-weight: 400;
 }
-@media only screen and (max-width: 767px){
-.elementor-field .elementor-field-textual{
-    font-size: 14px;
-}
-}
 .elementor-label{
     color: rgb(75, 47, 40);
     font-family: "Poppins", Sans-serif;
@@ -226,5 +296,6 @@ body{
     font-size: 18px;
     font-weight: 400;
 }
-
-
+.DonutsTradicional{
+    background-color: #fff;
+}

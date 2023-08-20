@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" href="Heaven's_Donuts.ico.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/Heaven's_Donuts.ico.png" type="image/x-icon">
     <title>Cardápio - Heaven’s Donut</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,15 +12,33 @@
     <header>
         <div>
             <a href="index.html">
-                <img class="logotipo" src="Heaven_s_Donuts_Logo.png" alt="logotipo Heaven’s Donut">
+                <img class="logotipo" src="img/Heaven_s_Donuts_Logo.png" alt="logotipo Heaven’s Donut">
             </a>
         </div>
         <nav>
             <ul class="elementor-nav-menu">
                 <li class="menu-item-object-custom"><a href="index.html" class="elementor-item">Início</a></li>
                 <li class="menu-item-object-custom"><a href="Cardápio.html" class="elementor-item">Cardápio</a></li>
-                <li class="menu-item-object-custom"><a href="#" class="elementor-item">Carrinho</a></li>
                 <li class="menu-item-object-custom"><a href="Contato.html" class="elementor-item">Contato</a></li>
+            </ul>
+        </nav>
+        <nav class="elementor-social-icon">
+            <ul>
+                <Li>
+                    <a href="https://pt-br.facebook.com/" tanget="_blank">
+                        <img src="img/facebook-icon.webp" alt="facebook">
+                    </a>
+                </Li>
+                <Li>
+                    <a href="https://www.instagram.com/" tanget="_blank">
+                        <img src="img/instagram-icon.webp" alt="instagram">
+                    </a>
+                </Li>
+                <Li>
+                    <a href="https://www.tiktok.com/explore" tanget="_blank">
+                        <img src="img/tiktok-icon.webp" alt="tiktok">
+                    </a>
+                </Li>
             </ul>
         </nav>
     </header>
@@ -29,11 +47,12 @@
 
         </nav>
     </aside>
-    <main>
+    <main class="main-contact">
         <div class="elementor-widget-container"></div>
 
         <h2 class="elementor-heading-title2">ATENDIMENTO</h2>
         <h1 class="elementor-title2">FALE CONOSCO</h1>
+        <h2 class="description">Envie sua dúvida, crítica ou sugestão através do formulário a seguir que responderemos assim que possível!</h2>
 
            <!--FORMULÁRIO DE CADASTRO-->
            <div id="cadastro">
@@ -56,18 +75,20 @@
                 </p>
                 <p> 
                     <label class="elementor-label">CURRÍCULO</label>
-                    <input class= "elementor-upload-field" type="file" name="form_fields[field_cd321ed]" value="Escolher arquivo"/> 
+                    <input class= "elementor-upload-field" type="file" value="Escolher arquivo"/> 
                 </p>
-                <div class="elementor-field-group-button"></div>
-                <button type="submit" class="elementor-button">
-                    <span>
-                        <span class="elementor-buttom-icon">
-                        </span>
-                        <span class="elementor-buttom-text">Enviar</span>
-                    </span>
-            </form>
-            </div>
-    </div>
+
+            <button>
+                <div class="svg-wrapper-1">
+                <div class="svg-wrapper">
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z" fill="currentColor"></path>
+                    </svg>
+                </div>
+                </div>
+                    <span>Enviar</span>
+            </button>
     </main>
     <footer>
     </footer>
