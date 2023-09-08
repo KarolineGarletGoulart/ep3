@@ -190,7 +190,6 @@ body{
     color: rgb(75, 47, 40);
     background-color:  rgb(255, 109, 138);
 }
-
 .elementor-heading-title2{
     color: rgb(98, 223, 187);
     font-family: "Poppins", Sans-serif;
@@ -242,7 +241,7 @@ body{
     border-color: #4b2f28;
     border-radius: 100px;
 }
-button {
+.button-contact{
     font-family: "Poppins", Sans-serif;
     font-size: 20px;
     font-weight: 600;      
@@ -296,66 +295,43 @@ button {
     font-size: 18px;
     font-weight: 400;
 }
-.DonutsTradicional{
+
+.product-page{
     background-color: rgb(255, 245, 203);
+    
 }
-.container{
+.product{
     display: flex;
-    width: 100%;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    height: calc(100vh -8px);
+    padding: 1rem;
 }
-.left-side{
-    display: flex;
-    flex-direction: column;
+.product-image{
+    width: 50%;
+}
+.product-image img {
     width: 100%;
+    height: auto;
 }
-.items{
-    align-self: flex-end;
+.product-info{
+    width: 50%;
 }
-.select-image{
-    max-width: 500px;
+.product-info h2{
+    color: rgb(98, 223, 187);
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
-.select-image img{
-    width: 100%;
-}
-.right-side{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.right-side h6{
+.description{
     color: #4b2f28;
-}
-.right-side h1{
-    color: rgb(255, 109, 138);
-    font-family: "Gochi Hand", Sans-serif;
-    font-size: 3rem;
+    font-size: 17px;
     font-weight: 600;
-    text-shadow: 3px 3px 0px rgb(98, 223, 187);
-}
-.right-side p{
-    color: #4b2f28;
-    font-family: "Poppins", Sans-serif;
-    font-size: 16px;
-    font-weight: 500;
     line-height: 1.2em;
+    margin-bottom: 1rem;
 }
+
 .price{
-    color: #4b2f28;
-    font-size: 16px;
-    font-weight: 700;
+    color: black;
 }
-.amount{
-    display: flex;
-    align-items: center;
-    gap: 30px;
-}
-.amount span{
-    font-weight: 700;
-    font-size: 12px;
-}
-.minus, .plus{
-    cursor: pointer;
-}
+

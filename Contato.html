@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" href="img/Heaven's_Donuts.ico.png" type="image/x-icon">
-    <title>Cardápio - Heaven’s Donut</title>
+    <link rel="shortcut icon" href="Heaven's_Donuts.ico.png" type="image/x-icon">
+    <title>Contato - Heaven’s Donut</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="body-contato">
     <header>
         <div>
             <a href="index.html">
-                <img class="logotipo" src="img/Heaven_s_Donuts_Logo.png" alt="logotipo Heaven’s Donut">
+                <img class="logotipo" src="Heaven_s_Donuts_Logo.png" alt="logotipo Heaven’s Donut">
             </a>
         </div>
         <nav>
@@ -26,71 +26,57 @@
             <ul>
                 <Li>
                     <a href="https://pt-br.facebook.com/" tanget="_blank">
-                        <img src="img/facebook-icon.webp" alt="facebook">
+                        <img src="facebook-icon.webp" alt="facebook">
                     </a>
                 </Li>
                 <Li>
                     <a href="https://www.instagram.com/" tanget="_blank">
-                        <img src="img/instagram-icon.webp" alt="instagram">
+                        <img src="instagram-icon.webp" alt="instagram">
                     </a>
                 </Li>
                 <Li>
                     <a href="https://www.tiktok.com/explore" tanget="_blank">
-                        <img src="img/tiktok-icon.webp" alt="tiktok">
+                        <img src="tiktok-icon.webp" alt="tiktok">
                     </a>
                 </Li>
             </ul>
         </nav>
     </header>
     <aside>
-        <nav>
-
-        </nav>
+        <nav></nav>
     </aside>
     <main class="main-contact">
-        <div class="elementor-widget-container"></div>
-
         <h2 class="elementor-heading-title2">ATENDIMENTO</h2>
         <h1 class="elementor-title2">FALE CONOSCO</h1>
         <h2 class="description">Envie sua dúvida, crítica ou sugestão através do formulário a seguir que responderemos assim que possível!</h2>
-
-           <!--FORMULÁRIO DE CADASTRO-->
-           <div id="cadastro">
-            <form>
-                <p> 
-                    <label class="elementor-label">NOME</label>
-                    <input class= "elementor-field" required="required" type="telefone" placeholder="Digite seu nome"/>
-                </p>
-                <p> 
-                    <label class="elementor-label">TELEFONE</label>
-                    <input class= "elementor-field" required="required" type="telefone" placeholder="Digite seu telefone"/> 
-                </p>
-                <p> 
-                    <label class="elementor-label">EMAIL</label>
-                    <input class= "elementor-field" required="required" type="email" placeholder="Email"/> 
-                </p>
-                <p> 
-                    <label class="elementor-label">MENSAGEM</label>
-                    <textarea class="elementor-field-textual" required="required" placeholder="Digite sua mensagem"></textarea>
-                </p>
-                <p> 
-                    <label class="elementor-label">CURRÍCULO</label>
-                    <input class= "elementor-upload-field" type="file" value="Escolher arquivo"/> 
-                </p>
-
-            <button>
-                <div class="svg-wrapper-1">
-                <div class="svg-wrapper">
-                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z" fill="currentColor"></path>
-                    </svg>
-                </div>
-                </div>
-                    <span>Enviar</span>
-            </button>
+        <form action="/register" method="post">
+            <div>
+                <label class="elementor-label" for="Nome">Nome</label>
+                <input class= "elementor-field" type="text" id="Nome" name="Nome" required="required" placeholder="Digite seu nome">
+            </div>
+            <div>
+                <label class="elementor-label" for="Telefone">telefone</label>
+                <input class= "elementor-field" type="text" id="Telefone" name="Telefone" required="required" placeholder="Digite seu telefone">
+            </div>
+            <div>
+                <label class="elementor-label" for="Email">Email</label>
+                <input class= "elementor-field" type="text" id="Email" name="Email" required="required" placeholder="Email">
+            </div>
+            <div>
+                <label class="elementor-label" for="username">Mensagem</label>
+                <textarea class="elementor-field-textual" required="required" placeholder="Digite sua mensagem">
+                </textarea>
+            </div>
+            <div>
+                <label class="elementor-label">CURRÍCULO</label>
+                <input class= "elementor-upload-field" type="file" value="Escolher arquivo"/> 
+            </div>
+            <button class="button-contact"type="submit" id="send-button">Enviar</button>
+        </form>
     </main>
     <footer>
+
     </footer>
     </body>
 </html>
+
