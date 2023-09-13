@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Heaven's_Donuts.ico.png" type="image/x-icon">
+    <title>Carrinho de Compras - Heaven's Donuts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff6d8a;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #ffffff;
+        }
+
+        .carrinho-item {
+            background-color: #ffffff;
+            border-radius: 20px;
+            padding: 10px;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .carrinho-item img {
+            border-radius: 20px;
+            max-width: 100px;
+            margin-right: 20px;
+        }
+
+        .carrinho-item h2 {
+            color: #62dfbb;
+            margin: 0;
+        }
+
+        .carrinho-item p {
+            margin: 0;
+            color: #888;
+        }
+
+        .carrinho-total {
+            margin-top: 20px;
+            text-align: right;
+        }
+
+        .carrinho-total span {
+            font-weight: bold;
+            font-size: 18px;
+            color: #ff6d8a;
+        }
+        .container2 button{
+            background-color: #62dfbb;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .container2 button:hover{
+            background-color: #4eb7a0;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Carrinho de Compras</h1>
+    </header>
+    <div class="container">
+        <h2>Itens no Carrinho</h2>
+        <div class="carrinho-item">
+            <img src="Tradicional.webp" alt="Donut 1">
+            <div>
+                <h2>Donut Tradicional</h2>
+                <p>Preço: R$ 14,30</p>
+            </div>
+        </div>
+        <div class="carrinho-item">
+            <img src="Simpsons.webp" alt="Donut 2">
+            <div>
+                <h2>The Simpsons</h2>
+                <p>Preço: R$ 16,40</p>
+            </div>
+        </div>
+        <div class="carrinho-item">
+            <img src="coca-cola-350ml.webp" alt="Bebida 1">
+            <div>
+                <h2>Coca Cola 350ml</h2>
+                <p>Preço: R$ 07,50</p>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="carrinho-total">
+                Total: <span>R$ 38,02</span>
+            </div>
+            <a href="index.html"></a>
+            <button id="finalizar-compra" onclick="finalizarCompra()">Finalizar Compra</button>         
+            </a>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
